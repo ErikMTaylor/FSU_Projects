@@ -1,0 +1,27 @@
+# ninja log v5
+4	735	6719446366595302	build.ninja	a0ef4a7996018975
+19	710	6719446983693351	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+23	472	6719454921406082	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+5	547	6719454922217309	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+548	953	6719454926212455	AvengerApp.exe	237faecea5b9bb5f
+6	533	6719456098238406	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+534	704	6719456099865153	AvengerApp.exe	237faecea5b9bb5f
+5	474	6719458803592530	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+22	537	6719458804305239	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+538	678	6719458805683414	AvengerApp.exe	237faecea5b9bb5f
+21	454	6719459134527311	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+4	539	6719459135345228	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+539	712	6719459137062305	AvengerApp.exe	237faecea5b9bb5f
+22	560	6719472604869858	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+25	473	6719487120422300	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+5	558	6719487121312437	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+559	754	6719487123178758	AvengerApp.exe	237faecea5b9bb5f
+4	433	6719490655917059	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+434	604	6719490657634794	AvengerApp.exe	237faecea5b9bb5f
+4	514	6719491294754114	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+515	693	6719491296460966	AvengerApp.exe	237faecea5b9bb5f
+4	520	6719496625627711	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+521	698	6719496627380354	AvengerApp.exe	237faecea5b9bb5f
+4	468	6719503834115075	CMakeFiles/AvengerApp.dir/Avenger.cpp.obj	3c9e2ccaeeee77d1
+22	544	6719503834842615	CMakeFiles/AvengerApp.dir/AvengerApp.cpp.obj	6a8eab26e1a4c937
+545	720	6719503836603246	AvengerApp.exe	237faecea5b9bb5f

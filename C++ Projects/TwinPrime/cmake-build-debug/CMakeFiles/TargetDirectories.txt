@@ -1,0 +1,3 @@
+C:/Users/erikm/CLionProjects/TwinPrime/cmake-build-debug/CMakeFiles/TwinPrime.dir
+C:/Users/erikm/CLionProjects/TwinPrime/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/erikm/CLionProjects/TwinPrime/cmake-build-debug/CMakeFiles/rebuild_cache.dir

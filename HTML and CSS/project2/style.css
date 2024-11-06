@@ -1,0 +1,239 @@
+/* CSS Document */
+
+/* Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;800&display=swap');
+
+
+body {
+    font: 100%/1.4 'Archivo', Verdana, Arial, Helvetica, sans-serif;
+    background-color: cyan;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+    padding-right: 15px;
+    padding-left: 15px;
+    /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+    font-weight: 800;
+}
+
+li {
+    margin-left: 15px;
+}
+
+a img {
+    /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+    border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+    color: #42413C;
+    text-decoration: underline;
+    /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+
+a:visited {
+    color: #6E6C64;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+    /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+    width: 80%;
+    background: #FFF;
+    margin: 0 auto;
+    /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+
+.header {
+    background: url(images/banner.jpg) no-repeat center top;
+    background-size: cover;
+    height: 275px;
+}
+
+#title-page {
+    width: 75%;
+    padding-top: 190px;
+    /* provides a lot of space to view the background image */
+    color: #fff;
+    text-align: left;
+    transition: width 0.2s;
+}
+
+#title-page h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 38px;
+    /* text-shadow: 3px 3px #fff; */
+    background-color: #a07db3;
+    line-height: 60px;
+    box-shadow: 15px 15px rgba(144, 144, 144, 0.5);
+    transition: font-size 0.2s;
+}
+
+
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+    padding: 40px 0 60px 0;
+}
+
+#sidebar {
+    width: 25%;
+    height: auto;
+    font-size: 16px;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    float: right;
+    margin: 0 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px rgba(159, 210, 136, 0.2);
+    transition: font-size 0.2s;
+}
+
+ul {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+li:before {
+    content: "\2605";
+    padding-right: 5px;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+    padding: 10px 0;
+    background: #a07db3;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {
+    /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+    float: left;
+    margin-right: 8px;
+}
+
+.clearfloat {
+    /* this class can be placed on a <br> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+
+/* @media only screen and (max-width: 1200px) {
+    #title-page {
+        width: 85%;
+    }
+
+
+    #title-page h1 {
+        font-size: 26pt;
+        line-height: 46px;
+    }
+} */
+
+
+@media only screen and (max-width: 1000px) {
+    #title-page {
+        width: 65%;
+    }
+
+
+    #title-page h1 {
+        font-size: 22pt;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #title-page {
+        width: 78%;
+    }
+
+    #title-page h1 {
+        font-size: 20pt;
+        line-height: 36px;
+    }
+
+    #sidebar {
+        font-size: 12px;
+        width: 30%;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	.container {
+		width: 100%;
+	}
+
+    #title-page {
+        width: 90%;
+    }
+
+    #title-page h1 {
+        font-size: 20pt;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+
+	.container {
+		width: 100%;
+	}
+
+	#title-page {
+        width: 100%;
+    }
+
+	#title-page h1 {
+        font-size: 16pt;
+        line-height: 46px;
+    }
+
+}

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* Responsive sheet made by Erik Taylor, 7/22/24 */
+
+@media screen and (max-width: 2560px){
+    .container{
+        width: 90%;
+    }
+
+    iframe{
+        margin-left: 37.25%;
+    }
+
+    #grid-img{
+        padding-left: 79%;
+        padding-top: 20px;
+    }
+
+    #grid-list{
+        margin-left: 0%;
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+
+    #title h1 {
+        font-size: 15em;
+        text-shadow: 4px 8px rgb(0,0,0);
+    }
+    
+    #title h2 {
+        font-size: 8em;
+        margin: -150px 0 0px 35%;
+        text-shadow: 4px 8px rgb(0,0,0);
+    }
+
+    table{
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .container{
+        width: 90%;
+    }
+
+    iframe{
+        margin-left: 23.5%;
+    }
+
+    #grid-img{
+        padding-left: 55%;
+        padding-top: 20px;
+    }
+
+    #grid-list{
+        margin-left: 1%;
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 95%;
+    }
+
+    iframe{
+        margin-left: 10%;
+    }
+
+    #grid-img{
+        padding-left: 38%;
+        padding-top: 20px;
+    }
+
+    #grid-list{
+        margin-left: 1%;
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+
+    ul#menu{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 95%;
+    }
+
+    iframe{
+        width: 90%;
+        margin: 0;
+        padding: 4px;
+        margin-left: 3.5%;
+    }
+
+    #grid-img{
+        padding-left: 30%;
+        padding-top: 20px;
+    }
+
+    #grid-list{
+        padding: 0 0 0 -40px;
+        margin-left: -30px;
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+
+    ul#menu{
+        margin-right: 5%;
+    }
+
+    table{
+        margin-left: 2.5%;
+        margin-bottom: 4%;
+    }
+
+    #title h1 {
+        font-size: 3.4em;
+    }
+    
+    #title h2 {
+        font-size: 2em;
+        margin: -30px 0 0px 25%;
+    }
+}

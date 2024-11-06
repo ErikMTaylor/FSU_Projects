@@ -1,0 +1,271 @@
+@charset "UTF-8";
+/* CSS created by Erik Taylor, 6/16/24*/
+
+/* To remove the default settings */
+html, body {
+	margin:0;
+	padding:0;
+}
+
+/* New default settings */
+body {
+	font-family: Verdana, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: rgb(50, 50, 50);
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Basic Text Styles */
+p {
+	font-size: .9em;
+	margin: 0 40px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+li, td{
+	font-size:.9em;
+}
+
+/* List Styles */
+ul li {
+	margin-left: 40px;
+	padding: 4px;
+}
+ol {
+	margin-left: 14px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.1em;
+	padding: 0px;
+	line-height: 2em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	padding: 0px;
+	letter-spacing: 0.3em;
+	background-color: rgb(50, 50, 50);
+}
+
+h3 {
+	text-align: center;
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: rgb(0, 217, 255);
+	padding: 10px 0px 5px 0px;
+	font-style: italic;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Link Styles */
+/* Unvisited Link */
+a:link {
+	font-weight: bold;
+	color: rgb(0, 90, 104);
+	text-decoration: none;
+}
+
+/* Mouse-Over Link */
+a:hover {
+	color: rgb(0, 255, 255);
+}
+
+/* Clicked Link */
+a:visited {
+	font-weight: bold;
+	color: rgb(0, 90, 104);
+	text-decoration: none;
+}
+
+/* Table Styles */
+table {
+	border: solid rgb(0, 217, 255) 1px;
+	width: 95%;
+	margin: 20px
+}
+td {
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+th {
+	font-weight: bold;
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+
+/* Border Styles */
+hr {
+	border: solid rgb(0, 217, 255) 1px;
+}
+
+img {
+	border: solid rgb(0, 217, 255) 1px;
+	/*margin-left: 265px;*/
+}
+
+iframe {
+	border: solid rgb(0, 217, 255) 1px;
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 40px;
+	margin-right: 0px;
+}
+
+/* Div Styles */
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	border: solid rgb(0, 255, 255) 1px;
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+}
+
+/* Section Styles */
+.main{
+	width: 650px;
+    padding: 0;
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+/* Sidebar Styling */
+#sidebar{
+	width: 310px;
+	float: right;
+	margin: 0px;
+	padding: 50px 20px 50px 20px;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+}
+
+#sidebar img{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	border: solid rgb(0, 225, 255) 1px;
+}
+
+#sidebar_differences{
+	width: 310px;
+	float: right;
+	margin: 0px;
+	padding: 650px 20px 50px 20px;
+	overflow: hidden;
+	background-color: rgb(0, 0, 0);
+}
+
+#sidebar_differences img{
+	width: 75%;
+	margin: 0px 0px 250px 30px;
+	border: 0;
+}
+
+/* Nav Style */
+nav {
+	font-size: 1.2em;
+	text-align: center;
+	height: 55px;
+	background-color: rgb(50, 50, 50);
+	overflow: hidden; /* clip bottom of links to create tabbed effect */
+	margin-bottom:10px;
+}
+  
+ul#menu {
+   list-style: none; /* removes bullet points from unordered list */
+   padding:0; /*removes left indentation from list items */
+   display:inline-block; /* display as inline block item without line break between */
+}
+  
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	margin-left: -5px; /* controls space between buttons/tabs */
+}
+  
+ul#menu li a.button {
+	background-color: rgb(255, 255, 255); /* button/tab background color */
+	color: rgb(0, 0, 0); 
+	font-size: 1em;
+	text-decoration: none; /* remove underline from links */
+	/*padding defines size of buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen */
+	padding: 15px 20px 25px 20px;
+	border: solid 2px;
+}
+  
+/* style for currently selected tab/button should be different so it stands out */
+ul#menu li a.button.selected {
+	background-color: rgb(0, 0, 0); /* matching color to main background color */
+	color: rgb(255, 255, 255);
+	font-style: italic; /* italicize current tab link to show it is selected */
+}
+  
+ul#menu li a.button:visited {
+	color: rgb(0, 0, 0); /* visited links should be same color as unclicked links for consistent presentation */
+}
+  
+ul#menu li a.button:visited.selected {
+	color: rgb(255, 255, 255); /* visited links should be same color as unclicked links for consistent presentation */
+}
+  
+/* hover link styles */
+ul#menu li a.button:hover {
+	background-color: rgb(50, 50, 50);
+	color: rgb(0, 255, 255);
+}
+  
+/* selected button shouldn't change on hover */
+ul#menu li a.button:hover.selected {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+/* Header Style */
+header{
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+header img{
+	width: 100%;
+	margin: 0;
+	border: 0;
+	border-bottom: rgb(0, 255, 255) 1px;
+}
+
+/* Footer Style */
+footer{
+	width: 100%;
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	padding: 20px 0;
+	border-top: solid rgb(0, 225, 255) 1px;
+	margin-top: 20px;
+	clear: both;
+}
+
+footer p{
+	font-size: .7em;
+	font-style: italic;
+	margin: 0 40px;
+}

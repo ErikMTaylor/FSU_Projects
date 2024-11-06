@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* CSS created by Erik Taylor, 6/16/24*/
+
+html, body{
+    margin:0;
+	padding:0;
+    font-family: Verdana, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+    border-left: solid 2px rgb(0, 255, 255);
+    border-right: solid 2px rgb(0, 255, 255);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+}
+
+#grid-img{
+    padding-left: 310px;
+	padding-top: 20px;
+}
+
+#grid-list{
+    padding: 0 0 0 -40px;
+    margin-left: -30px;
+	margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 255, 255);
+	font-family: 'Luckiest Guy', Verdana, Arial;
+}
+
+#title h1 {
+    font-size: 4.4em;
+	letter-spacing: .1em;
+    text-shadow: 2px 3px rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+#title h2 {
+    font-size: 2.5em;
+    text-shadow: 2px 3px rgb(0, 0, 0);
+    margin: -50px 0 0px 220px;
+    padding-top: 0;
+    font-style: italic;
+    background-color: rgb(0, 0, 0, 0);
+    color: rgb(0, 255, 255);
+}
+
+/* Section Styling */
+#splash{
+    background: url(images/banner.png) no-repeat center top fixed;
+    background-size: 95%;
+    padding-bottom: 50px;
+	margin-bottom: 0;
+}
+
+#home{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+	padding-top: 40px;
+	margin-top: 0;
+}
+
+#differences{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+	padding-top: 40px;
+}
+
+#references{
+    background-color: rgb(50, 50, 50);
+    padding-bottom: 5px;
+	padding-top: 40px;
+}
+
+#footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+	padding-top: 20px;
+}
+
+/* Basic Styling */
+p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin: 0 40px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+}
+
+li, td{
+	font-size:.9em;
+}
+
+/* List Styles */
+ul li {
+	margin-left: 40px;
+	padding: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.1em;
+	padding: 0px;
+	line-height: 3em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 2px;
+	letter-spacing: 0.05em;
+	background-color: rgb(0, 255, 255);
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1.3em;
+	letter-spacing: 0.25em;
+	border-bottom-width: 2px;
+	border-bottom-style: inset;
+	border-bottom-color: rgb(0, 217, 255);
+	padding: 10px 0px 5px 0px;
+	font-style: italic;
+}
+
+h4 {
+    font-size: 1.1em;
+    letter-spacing: 0.25em;
+    padding-left: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Georgia, 'Times New Roman', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Link Styles */
+/* Unvisited Link */
+a:link {
+	font-weight: bold;
+	color: rgb(0, 217, 255);
+	text-decoration: none;
+}
+
+/* Mouse-Over Link */
+a:hover {
+	font-weight: bold;
+	color: rgb(0, 255, 255);
+	text-decoration: none;
+}
+
+/* Clicked Link */
+a:visited {
+	font-weight: bold;
+	color: rgb(0, 217, 255);
+	text-decoration: none;
+}
+
+/* Table Styles */
+table {
+	border: solid rgb(0, 0, 0) 2px;
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+	width: 95%;
+	margin: 20px
+}
+td {
+	padding: 6px;
+    border: solid rgb(0, 0, 0) 2px;
+    text-align: center;
+	font-size: 1.1em;
+}
+th {
+    padding: 5px;
+    border: solid 2px rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: center;
+    color: rgb(0, 255, 255);
+	font-size: 1.1em;
+}
+
+/* Border Styles */
+hr {
+	border: solid rgb(0, 217, 255) 1px;
+}
+
+img {
+	border: solid rgb(0, 217, 255) 1px;
+	/*margin-left: 265px;*/
+}
+
+iframe {
+	border: solid rgb(0, 217, 255) 3px;
+    background-color: rgb(0, 0, 0);
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 250px;
+	margin-right: 0px;
+}
+
+/* Navigation Stylings */
+nav {
+	font-size: 1.2em;
+	text-align: center;
+	height: 40px;
+	background-color: rgb(0, 0, 0, 0.0);
+	overflow: hidden; /* clip bottom of links to create tabbed effect */
+	margin-bottom: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+ul#menu {
+   list-style: none; /* removes bullet points from unordered list */
+   padding:0; /*removes left indentation from list items */
+   display:inline-block; /* display as inline block item without line break between */
+   margin-top: 3px;
+   margin-right: 10%;
+   padding: 0;
+}
+  
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	margin-left: 0px; /* controls space between buttons/tabs */
+}
+  
+ul#menu li a.button {
+	background-color: rgb(0, 0, 0, 0.7); /* button/tab background color */
+	color: rgb(255, 255, 255, 0.7); 
+	font-size: 1em;
+	text-decoration: none; /* remove underline from links */
+	/*padding defines size of buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen */
+	padding: 25px 18px 7px 18px;
+	border: solid 2px;
+}
+  
+/* style for currently selected tab/button should be different so it stands out */
+ul#menu li a.button.selected {
+	background-color: rgb(0, 0, 0); /* matching color to main background color */
+	color: rgb(255, 255, 255);
+	font-style: italic; /* italicize current tab link to show it is selected */
+}
+  
+ul#menu li a.button:visited {
+	color: rgb(255, 255, 255, 0.7); /* visited links should be same color as unclicked links for consistent presentation */
+}
+  
+ul#menu li a.button:visited.selected {
+	color: rgb(255, 255, 255); /* visited links should be same color as unclicked links for consistent presentation */
+}
+  
+/* hover link styles */
+ul#menu li a.button:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+  
+/* selected button shouldn't change on hover */
+ul#menu li a.button:hover.selected {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}

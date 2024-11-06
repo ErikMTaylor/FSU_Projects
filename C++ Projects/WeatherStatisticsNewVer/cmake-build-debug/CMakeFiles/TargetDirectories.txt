@@ -1,0 +1,3 @@
+/cygdrive/d/COP 3014/ProgrammingExamples/Chapter11/WeatherStatisticsNewVer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/COP 3014/ProgrammingExamples/Chapter11/WeatherStatisticsNewVer/cmake-build-debug/CMakeFiles/WeatherStatistics.dir
+/cygdrive/d/COP 3014/ProgrammingExamples/Chapter11/WeatherStatisticsNewVer/cmake-build-debug/CMakeFiles/edit_cache.dir

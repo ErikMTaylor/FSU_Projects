@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/COP 3014/ProgrammingExamples/Chapter11/WeatherStatisticsNewVer/main.cpp
+iostream
+-
+iomanip
+-
+

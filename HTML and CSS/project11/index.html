@@ -1,0 +1,183 @@
+
+<!-- Erik Taylor | 7/7/24 -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="responsive.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="favicon.ico"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="author" content="Erik Taylor">
+        <meta name="keywords" content="engine, games, development, coding">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Engines</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <section id="splash">
+
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#home" class="button">Home</a></li>
+                        <li><a href="#differences" class="button">Differences</a></li>
+                        <li><a href="#references" class="button">References</a></li>
+                    </ul>
+                </nav>
+
+                <div id="title">
+                    <h1>Game Engines</h1>
+                    <h2>By Erik Taylor</h2>
+                </div>
+
+            </section>
+           
+            <section id="home">
+                <h2>What is a Game Engine?</h2>
+                <p>
+                    A game engine is a software framework designed for the development and creation of video games. 
+                    Developers use game engines to create interactive and immersive experiences without needing to build the foundational code from scratch.
+                    These engines come with pre-installed packages like multiplayer, audio, physics, AI, scripting, and many more. 
+                    The game engine is capable of generating the code needed for the game to run, along with debuggers and even a section to test the game. 
+                </p>
+
+                <h3>Current Popular Engines</h3>
+                <div class="grid-container">
+                    
+                    <div id="grid-img">
+                        <img src="images/joystick.png" alt="Photo of a small computer and gaming console." width="170" height="150">
+                    </div>
+
+                    <div id="grid-list">
+                        <ul>
+                            <li>Unreal</li>
+                            <li>Unity</li>
+                            <li>Godot</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <blockquote><em>"...you need to make a game wrong at least two or three times before you find the right path."</em> - Ken Wong</blockquote>
+
+            </section>
+           
+            <section id="differences">
+                <h2>What Makes Them Different?</h2>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fq_nK4_B6_0?si=_aVgic41t-LOFz0g" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <h3>UNREAL</h3>
+                <p>
+                  Unreal Engine, developed by Epic Games, is a powerful and versatile game development platform known for its high-fidelity graphics and robust suite of tools. 
+                  One of its significant advantages is the quality of its visual rendering capabilities, enabling developers to create stunningly realistic environments and characters. 
+                  Additionally, it offers a user-friendly interface and a comprehensive library of assets and pre-built templates, which can accelerate the development process. 
+                  The engine's Blueprint visual scripting system also allows for non-programmers to create complex game mechanics. However, there are some drawbacks. 
+                  Unreal Engine can have a steep learning curve for beginners, particularly those unfamiliar with programming or 3D modeling. 
+                  It is also resource-intensive, requiring high-performance hardware to run efficiently, which can be a barrier for smaller studios or individual developers. 
+                  Lastly, while the engine is free to use, there is a royalty fee for commercial products that exceed a certain revenue threshold, which may impact budgeting for successful projects.
+                </p>
+                
+                <h3>UNITY</h3>
+                <p>
+                  Unity Engine is a widely-used game development platform renowned for its versatility and accessibility, making it a popular choice among both indie developers and large studios. 
+                  One of its key advantages is its ease of use, with an intuitive interface and extensive documentation that helps newcomers quickly get up to speed. 
+                  Unity supports a wide range of platforms, including mobile, desktop, consoles, and VR, allowing developers to reach a broad audience. 
+                  Its asset store provides a vast array of ready-to-use resources, which can significantly speed up development. 
+                  Additionally, Unity's C# scripting language is considered user-friendly and well-supported. 
+                  On the downside, Unity's graphical capabilities, while improving, are often seen as less advanced compared to those of Unreal Engine, which might be a limitation for developers aiming for cutting-edge visual fidelity. 
+                  Performance optimization can also be challenging, especially for complex projects, potentially leading to issues with resource management and frame rates. 
+                  Moreover, the free version of Unity lacks some of the advanced features and support available in its Pro version, which requires a subscription fee, adding to the development costs for teams needing those capabilities.
+                </p>
+        
+                <h3>GODOT</h3>
+                <p>
+                  Godot Engine is an open-source game development platform that has gathered attention for its flexibility and cost-effectiveness. 
+                  One of its primary advantages is that it is entirely free to use, with no associated licensing fees or royalties, making it an attractive option for indie developers and small studios. 
+                  Godot's lightweight design ensures it runs efficiently on a variety of hardware, and its node-based architecture simplifies the process of creating complex scenes and game mechanics. 
+                  Additionally, the engine supports multiple scripting languages, including GDScript, which is designed to be easy to learn and similar to Python. 
+                  However, there are some cons to consider. 
+                  Godot's 3D capabilities, while improving, are not as advanced as those of more established engines like Unreal or Unity, which might be a drawback for developers aiming for high-end 3D graphics. 
+                  The engine's smaller community and ecosystem also mean fewer resources and third-party assets are available compared to Unity or Unreal. 
+                  Lastly, while the open-source nature of Godot is a strength, it can also mean less formalized support and potentially slower development of new features and updates. 
+                </p>
+
+                <h3>Differences Simplified</h3>
+
+                <table border="1">
+                  <tr>
+                    <th>&nbsp;</th>
+                    <th>2D</th>
+                    <th>3D</th>
+                    <th>Cost</th>
+                    <th>Languages</th>
+                  </tr>
+                  <tr>
+                    <th>Unreal</th>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Royalties after $1m</td>
+                    <td>C++, Blueprints</td>
+                  </tr>
+                  <tr>
+                    <th>Unity</th>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Royalties after $100k</td>
+                    <td>C#</td>
+                  </tr>
+                  <tr>
+                    <th>Godot</th>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>Free</td>
+                    <td>C++, C#, GDScript</td>
+                  </tr>
+                </table>
+
+            </section>
+           
+            <section id="references">
+        
+                <h2>References</h2>
+        
+                <h4>Unreal</h4>
+                <ul>
+                  <li><a href="https://www.unrealengine.com/en-US" target="_blank">Unreal Engine Website</a></li>
+                </ul>
+        
+                <h4>Unity</h4>
+                <ul>
+                  <li><a href="https://unity.com" target="_blank">Unity Engine Website</a></li>
+                  <li><a href="https://forum.unity.com/threads/10-quotes-every-game-developer-should-remember-from-gamasutra.291517/" target="_blank">Website used for block quote.</a></li>
+                </ul>
+        
+                <h4>Godot</h4>
+                <ul>
+                  <li><a href="https://godotengine.org" target="_blank">Godot Engine Website</a></li>
+                </ul>
+            </section>
+           
+            <section id="footer">
+                <p>&copy; Erik Taylor 2024 &vert; Created for CGS2821 at <a href="https://fsu.edu">Florida State University</a></p>
+            </section>
+        </div>
+        <script src="jquery.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function () {
+                  jQuery('.button').click(function() {
+                      targetName = jQuery(this).attr('href');
+                      targetLocation = jQuery(targetName).offset().top;
+                      jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+                      return false;
+                      });
+                  });
+        </script>
+    </body>
+</html>

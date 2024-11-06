@@ -1,0 +1,7 @@
+# ninja log v5
+8	690	6830864742857397	CMakeFiles/FizzBuzz.dir/main.cpp.obj	8ed5ab42b2e1c31a
+652	852	6830867723388398	FizzBuzz.exe	b2b748a6ad935411
+7	431	6836645529277863	build.ninja	ae7d24d20dfc6674
+7	650	6830867721437952	CMakeFiles/FizzBuzz.dir/FizzBuzz.cpp.obj	279daba573ff3284
+5	820	6836645811420435	CMakeFiles/FizzBuzz.dir/FizzBuzz.cpp.obj	279daba573ff3284
+821	1252	6836645815653660	FizzBuzz.exe	b2b748a6ad935411

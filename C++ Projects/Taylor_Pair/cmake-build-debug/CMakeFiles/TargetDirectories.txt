@@ -1,0 +1,3 @@
+C:/Users/erikm/CLionProjects/Taylor_Pair/cmake-build-debug/CMakeFiles/Taylor_Pair.dir
+C:/Users/erikm/CLionProjects/Taylor_Pair/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/erikm/CLionProjects/Taylor_Pair/cmake-build-debug/CMakeFiles/rebuild_cache.dir

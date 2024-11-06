@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS created by Erik Taylor, 6/16/24*/
+
+/* To remove the default settings */
+html, body {
+	margin:0;
+	padding:0;
+}
+
+/* New default settings */
+body {
+	font-family: Verdana, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: rgb(50, 50, 50);
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Basic Text Styles */
+p {
+	font-size: .9em;
+	margin: 0 40px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+li, td{
+	font-size:.9em;
+}
+
+/* List Styles */
+ul li {
+	margin-left: 40px;
+	padding: 4px;
+}
+ol {
+	margin-left: 14px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.1em;
+	padding: 4px 0;
+	line-height: 2em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	padding: 6px;
+	letter-spacing: 0.3em;
+	background-color: rgb(50, 50, 50);
+}
+
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: rgb(0, 217, 255);
+	padding: 2px 0;
+	font-style: italic;
+	margin-left: 40px;
+	margin-right:300px;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Link Styles */
+/* Unvisited Link */
+a:link {
+	font-weight: bold;
+	color: rgb(0, 90, 104);
+	text-decoration: none;
+}
+
+/* Mouse-Over Link */
+a:hover {
+	color: rgb(0, 255, 255);
+}
+
+/* Clicked Link */
+a:visited {
+	font-weight: bold;
+	color: rgb(0, 90, 104);
+	text-decoration: none;
+}
+
+/* Table Styles */
+table {
+	border: solid rgb(0, 217, 255) 1px;
+	margin-left: 155px;
+	margin-right: 150px;
+	margin-bottom: 10px;
+}
+td {
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+th {
+	font-weight: bold;
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+
+/* Border Styles */
+hr {
+	border: solid rgb(0, 217, 255) 1px;
+}
+
+img {
+	border: solid rgb(0, 217, 255) 1px;
+	margin-left: 265px;
+}
+iframe {
+	border: solid rgb(0, 217, 255) 1px;
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 110px;
+	margin-right: 110px;
+}
+
+/* Div Styles */
+#container{
+	width: 800px;
+	margin: 0 auto;
+	border: solid rgb(0, 255, 255) 1px;
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+}
+
+/* Nav Style */
+nav{
+	font-size: 1.1em;
+	height: 30px;
+	padding-top: 8px;
+	background-color:rgb(0, 90, 104);
+}
+
+nav a:link{
+	color:rgb(0, 0, 0);
+}
+
+nav a:visited{
+	color:rgb(0, 0, 0);
+}
+
+nav a:hover{
+	color:rgb(50, 50, 50);
+}
+
+/* Header Style */
+header{
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	border-bottom: solid rgb(50, 50, 50);
+	margin-bottom: 10px;
+}
+
+header img{
+	margin: 0;
+	border: 0px;
+	border-bottom: rgb(0, 255, 255) 1px;
+}
+
+/* Footer Style */
+footer{
+	width: 100%;
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	padding: 20px 0;
+	border-top: solid rgb(0, 225, 255) 1px;
+	margin-top: 20px;
+}
+
+footer p{
+	font-size: .7em;
+	font-style: italic;
+	margin: 0 40px;
+}

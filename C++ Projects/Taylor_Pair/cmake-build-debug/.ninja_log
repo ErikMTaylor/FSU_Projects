@@ -1,0 +1,22 @@
+# ninja log v5
+1	707	6871391471226232	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+11	731	6871391471469906	CMakeFiles/Taylor_Pair.dir/Pair.cpp.obj	79a4ea0a9e4b6990
+732	984	6871391473978917	Taylor_Pair.exe	e55a80dc9fd40b73
+6	739	6871391684942294	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+15	741	6871391684942294	CMakeFiles/Taylor_Pair.dir/Pair.cpp.obj	79a4ea0a9e4b6990
+742	906	6871391686570826	Taylor_Pair.exe	e55a80dc9fd40b73
+7	671	6871397968116371	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+672	844	6871397969697300	Taylor_Pair.exe	e55a80dc9fd40b73
+7	658	6871426901756585	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+669	865	6871426903757960	Taylor_Pair.exe	e55a80dc9fd40b73
+5	550	6871465730802279	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+550	722	6871465732508007	Taylor_Pair.exe	e55a80dc9fd40b73
+5	626	6871467132209033	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+627	804	6871467133960442	Taylor_Pair.exe	e55a80dc9fd40b73
+8	687	6871472905203680	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+688	862	6871472906918722	Taylor_Pair.exe	e55a80dc9fd40b73
+6	616	6871473520412116	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+617	790	6871473522030039	Taylor_Pair.exe	e55a80dc9fd40b73
+6	817	6871477569594907	CMakeFiles/Taylor_Pair.dir/main.cpp.obj	6c75add73ee5685a
+14	835	6871477569754940	CMakeFiles/Taylor_Pair.dir/Pair.cpp.obj	79a4ea0a9e4b6990
+836	1064	6871477571939178	Taylor_Pair.exe	e55a80dc9fd40b73

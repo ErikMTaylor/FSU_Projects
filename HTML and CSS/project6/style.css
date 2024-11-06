@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS created by Erik Taylor, 6/16/24*/
+
+/* To remove the default settings */
+html, body {
+	margin:0;
+	padding:0;
+}
+
+/* New default settings */
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.1em;
+	line-height: 1.6em;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 0 40px;
+}
+
+/* Basic Text Styles */
+p, li, td {
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 2.1em;
+	padding: 4px 0;
+	line-height: 2em;
+}
+
+h2 {
+	font-size: 24px;
+	padding: 6px;
+	letter-spacing: 0.3em;
+	background-color: rgb(50, 50, 50);
+}
+
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: rgb(0, 217, 255);
+	padding: 1px 0;
+	font-style: italic;
+}
+
+blockquote {
+	font-size: 1.2em;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Link Styles */
+/* Unvisited Link */
+a:link {
+	font-weight: bold;
+	color: rgb(0, 225, 255);
+	text-decoration: none;
+}
+
+/* Mouse-Over Link */
+a:hover {
+	color: rgb(0, 158, 179);
+}
+
+/* Clicked Link */
+a:visited {
+	font-weight: bold;
+	color: rgb(0, 90, 104);
+	text-decoration: none;
+}
+
+/* List Styles */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* Table Styles */
+table {
+	border: solid rgb(0, 217, 255) 1px;
+}
+td {
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+th {
+	font-weight: bold;
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	padding: 6px;
+	border: solid rgb(50, 50, 50) 1px;
+}
+
+/* Border Styles */
+hr {
+	border: solid rgb(0, 217, 255) 1px;
+}
+
+img {
+	border: solid rgb(0, 217, 255) 1px;
+    margin-top: 20px;
+
+}
+iframe {
+	border: solid rgb(0, 217, 255) 1px;
+	padding: 8px;
+	margin: 8px;
+}
+
+
