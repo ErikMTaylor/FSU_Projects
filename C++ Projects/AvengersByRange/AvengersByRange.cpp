@@ -5,14 +5,14 @@
 using namespace std;
 
 struct Data_
-        {
-        string rangeAppearances;
-        int upperLimits;
-        int numMales = 0;
-        int numFemales = 0;
-        int diedOnce = 0;
-        int neverDied = 0;
-        };
+{
+    string rangeAppearances;
+    int upperLimits;
+    int numMales = 0;
+    int numFemales = 0;
+    int diedOnce = 0;
+    int neverDied = 0;
+};
 
 void Menu();
 void SortData(int i, Data_ &);

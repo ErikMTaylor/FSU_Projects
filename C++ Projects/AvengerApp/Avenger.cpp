@@ -44,18 +44,18 @@ void Avenger::setDead(bool ded)
 
 string Avenger::computeNumberOfAppearancesRange(int app)
 {
-if(app >=1 && app <=750)
-    return "<=750";
-else if(app > 750 && app <= 1500)
-    return "> 750 and <=1500";
-else if(app > 1500 && app <= 2250)
-    return "> 1500 and <=2250";
-else if(app > 2250 && app <= 3000)
-    return "> 2250 and <=3000";
-else if(app > 3000 && app <= 3750)
-    return "> 3000 and <=3750";
-else
-    return "> 3750 and <=4500";
+    if(app >=1 && app <=750)
+        return "<=750";
+    else if(app > 750 && app <= 1500)
+        return "> 750 and <=1500";
+    else if(app > 1500 && app <= 2250)
+        return "> 1500 and <=2250";
+    else if(app > 2250 && app <= 3000)
+        return "> 2250 and <=3000";
+    else if(app > 3000 && app <= 3750)
+        return "> 3000 and <=3750";
+    else
+        return "> 3750 and <=4500";
 }
 
 string Avenger::accName() const

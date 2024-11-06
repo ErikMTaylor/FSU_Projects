@@ -47,10 +47,10 @@ int main() {
 
 void DisplayAvenger(Avenger nm)
 {
-cout << "Name: " << nm.accName() << endl;
-cout << "Number of Appearances: " << nm.accAppearances() << endl;
-cout << "Gender: " << nm.accGender() << endl;
-cout << "Died At Least Once: " << nm.accDead() << endl;
-cout << "Number of Appearances Range: " << nm.computeNumberOfAppearancesRange(nm.accAppearances()) << endl;
-cout << endl;
+    cout << "Name: " << nm.accName() << endl;
+    cout << "Number of Appearances: " << nm.accAppearances() << endl;
+    cout << "Gender: " << nm.accGender() << endl;
+    cout << "Died At Least Once: " << nm.accDead() << endl;
+    cout << "Number of Appearances Range: " << nm.computeNumberOfAppearancesRange(nm.accAppearances()) << endl;
+    cout << endl;
 }
