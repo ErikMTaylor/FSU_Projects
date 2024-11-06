@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     //Create objects for the equations.
-    //My messy way of naming them :)
     Pair empty = Pair(), one = Pair(1,3);
     Pair two = Pair(9,2);
     Pair three = Pair(3,8);

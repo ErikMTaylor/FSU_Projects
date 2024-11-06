@@ -198,7 +198,7 @@ bool attack(Blob* given, Blob enemy[4]){
 
         //Each if statement takes in a direction and tests to see
         //if there is an enemy Blob one square away in the chosen direction.
-        //If true, the enemy health is subtracted user by power
+        //If true, the enemy health is subtracted by user power
         //Then it tests to see if the enemy Blob is dead and returns kill bool.
         if (direction == 'N') {
             for (i = 0; i < 5; i++) {
